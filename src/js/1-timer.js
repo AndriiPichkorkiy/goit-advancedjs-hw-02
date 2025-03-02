@@ -48,7 +48,6 @@ function startTimer() {
     if (timeLeft < 0) {
       clearInterval(intervalId);
       intervalId = null;
-      btnStart.disabled = false;
       inputDate.disabled = false;
       return;
     }
